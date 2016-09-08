@@ -1,0 +1,299 @@
+@import "partials/variable-overrides";
+
+a, a:hover, a:focus {
+    color: $jumbo-green;
+}
+
+.btn-outline:hover  {
+    color: $jumbo-green;
+    background: $mostwhite;
+    border: 2px solid $mostwhite;
+}    
+
+
+
+.primjer {
+	color: $blue-color;
+}
+
+@import "bootstrap/bootstrap";
+
+body {
+	font-family: $body-most;
+}
+
+
+
+.navbar.navbar-inverse {
+	text-transform: uppercase;
+}
+
+.navbar-inverse {
+	li {
+		a {
+			font-weight: bold;
+		}
+	}
+	margin-bottom:0px;
+}
+
+.navbar-brand {
+	font-size: 2em;
+}	
+
+header {
+    text-align: center;
+    background: none repeat scroll 0% 0% $jumbo-green;
+    color: $mostwhite ;
+
+
+    .container {
+    	padding-top: 200px;
+		padding-bottom: 100px;
+    }
+}
+
+header img {
+    margin: 0px auto 20px;
+}    
+
+header  .name {
+    display: block;
+    font-weight: 700;
+    font-size: 4.75em;
+}
+
+hr .star-light {
+	border-width: 5px medium medium ;
+	max-width: 250px;
+}
+
+header  .skills {
+    font-size: 1.25em;
+}    
+
+section {
+    padding: 100px 0px;
+}
+
+h2 {
+	font-size:3em;
+	font-weight:700;
+}
+
+img  {
+	display: block;
+    max-width: 100%;
+    height: auto;          
+}
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: $mostwhite;
+}
+
+hr.star-light:after {
+    color: $mostwhite;
+    background-color: $jumbo-green;
+}
+
+hr.star-primary {
+    border-color: $navbar-inverse-bg;
+}
+
+hr.star-primary:after {
+    color: $navbar-inverse-bg;
+    background-color: $mostwhite;
+}
+
+.caption:hover   {		
+    background : rgba(24,188,156,.9) ;
+    font-size: 3em;
+    color: $mostwhite ;  
+}
+
+ .caption img:hover {
+	opacity: 0.1 ;
+}
+
+ .caption {
+ 	font-size:0em;
+ 	margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    margin-top:30px;
+ }
+
+ .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+.fa-fw {
+    width: 2.28571429em;
+}    
+
+.footer-col a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+ span.text-content {
+    display: table;
+    left: 45%;
+    position: absolute;
+    top: 45%;
+  }
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+p {
+    font-size: 20px;
+    }
+
+.success {
+	background: $jumbo-green ;
+    color: $mostwhite ;
+    padding: 180px 0;
+}
+
+.contact {
+	
+}
+
+.btn-success {
+	color: $mostwhite;
+	background-color: $jumbo-green;
+	font-weight: 700;
+	padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+.footer-above {
+	background-color:$navbar-inverse-bg;
+	color:$mostwhite;
+	h3 {
+		text-transform: uppercase;
+		font-size: 24px ;
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+	p {
+		font-size: 20px;
+	}
+}
+
+.btn-social {
+	display: inline-block;
+    border: 2px solid $mostwhite;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+    
+}
+
+.btn-outline {
+        color: $mostwhite;
+        font-size: 20px;
+        border: 2px solid $mostwhite;
+        background: 0 0;
+        transition: all .3s ease-in-out;
+        margin-top: 15px
+    }
+
+
+
+.footer-below {
+	padding: 25px 0;
+    background-color: #233140;
+}
+
+.floating-label-form-group input, 
+.floating-label-form-group textarea {
+    z-index: 1;
+    position: relative;
+    padding-right: 0;
+    padding-left: 0;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5em;
+    background: 0 0;
+    box-shadow: none!important;
+    resize: none;
+}
+
+form .row:first-child .floating-label-form-group {
+    border-top: 1px solid $form-border-gray;
+}
+
+.floating-label-form-group {
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: .5em;
+    border-bottom: 1px solid $form-border-gray;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+}
+
+.floating-label-form-group label {
+    display: block;
+    z-index: 0;
+    position: relative;
+    top: 2em;
+    margin: 0;
+    font-size: .85em;
+    line-height: 1.764705882em;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
+}
+
+.footer-below p {
+    color: $mostwhite;
+    font-size: 14px;
+}
+
+
