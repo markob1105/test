@@ -8,7 +8,7 @@ a, a:hover, a:focus {
     color: $jumbo-green;
     background: $mostwhite;
     border: 2px solid $mostwhite;
-}    
+}
 
 
 
@@ -39,7 +39,7 @@ body {
 
 .navbar-brand {
 	font-size: 2em;
-}	
+}
 
 header {
     text-align: center;
@@ -55,7 +55,7 @@ header {
 
 header img {
     margin: 0px auto 20px;
-}    
+}
 
 header  .name {
     display: block;
@@ -70,7 +70,7 @@ hr .star-light {
 
 header  .skills {
     font-size: 1.25em;
-}    
+}
 
 section {
     padding: 100px 0px;
@@ -84,7 +84,7 @@ h2 {
 img  {
 	display: block;
     max-width: 100%;
-    height: auto;          
+    height: auto;
 }
 
 hr.star-light,
@@ -126,10 +126,10 @@ hr.star-primary:after {
     background-color: $mostwhite;
 }
 
-.caption:hover   {		
+.caption:hover   {
     background : rgba(24,188,156,.9) ;
     font-size: 3em;
-    color: $mostwhite ;  
+    color: $mostwhite ;
 }
 
  .caption img:hover {
@@ -154,7 +154,7 @@ hr.star-primary:after {
 
 .fa-fw {
     width: 2.28571429em;
-}    
+}
 
 .footer-col a {
     padding-left: 10px;
@@ -187,7 +187,7 @@ p {
 }
 
 .contact {
-	
+
 }
 
 .btn-success {
@@ -221,7 +221,7 @@ p {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
-    
+
 }
 
 .btn-outline {
@@ -240,7 +240,7 @@ p {
     background-color: #233140;
 }
 
-.floating-label-form-group input, 
+.floating-label-form-group input,
 .floating-label-form-group textarea {
     z-index: 1;
     position: relative;
@@ -297,3 +297,6 @@ form .row:first-child .floating-label-form-group {
 }
 
 
+.ivan-test {
+    color: blue;
+}
