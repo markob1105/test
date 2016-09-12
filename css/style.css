@@ -1,9 +1,9 @@
 @charset "UTF-8";
 a, a:hover, a:focus {
-  color: #18BC9C; }
+  color: #ff00ff; }
 
 .btn-outline:hover {
-  color: #18BC9C;
+  color: #ff00ff;
   background: #FFF;
   border: 2px solid #FFF; }
 
@@ -5760,7 +5760,7 @@ body {
 
 header {
   text-align: center;
-  background: none repeat scroll 0% 0% #18BC9C;
+  background: none repeat scroll 0% 0% #ff00ff;
   color: #FFF; }
   header .container {
     padding-top: 200px;
@@ -5817,7 +5817,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #FFF;
-  background-color: #18BC9C; }
+  background-color: #ff00ff; }
 
 hr.star-primary {
   border-color: #2C3E50; }
@@ -5870,13 +5870,13 @@ p {
   font-size: 20px; }
 
 .success {
-  background: #18BC9C;
+  background: #ff00ff;
   color: #FFF;
   padding: 180px 0; }
 
 .btn-success {
   color: #FFF;
-  background-color: #18BC9C;
+  background-color: #ff00ff;
   font-weight: 700;
   padding: 10px 16px;
   font-size: 18px;
